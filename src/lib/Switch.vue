@@ -5,12 +5,12 @@
 <script>
 export default {
   name: "Switch",
-  props:{value:Boolean},
-  setup(props,context) {
+  props: {value: Boolean},
+  setup(props, context) {
     const toggleSwitch = () => {
-      context.emit('update:value',!props.value)
+      context.emit('update:value', !props.value)
     }
-    return { toggleSwitch}
+    return {toggleSwitch}
   }
 }
 </script>
@@ -23,30 +23,39 @@ button {
   height: $h;
   width: $h*2;
   border: none;
-  background: grey;
+  background: #bfbfbf;
   border-radius: $h/2;
   position: relative;
-
-}
-
-span {
-  position: absolute;
-  top: $padding;
-  left: $padding;
-  height: $h2;
-  width: $h2;
-  background: white;
-  border-radius: $h2 / 2;
-  transition: left 250ms;
-}
-
-button.checked{
-  background-color: blue;
-  &>span {
-    left: calc(100% - #{$h2} - #{$padding});
+  >span{
+    position: absolute;
+    top: $padding;
+    left: $padding;
+    height: $h2;
+    width: $h2;
+    background: white;
+    border-radius: $h2 / 2;
+    transition: all 250ms;
   }
-}
-button:hover{
-  outline:none
+  &.checked {
+    background-color: #1890ff;
+    > span {
+      left: calc(100% - #{$h2} - #{$padding});
+    }
+  }
+  &:focus {
+    outline: none
+  }
+  /*动画椭圆效果*/
+  &:active {
+    > span {
+      width: $h2 + 4px;
+    }
+  }
+  &.checked:active {
+    > span {
+      width: $h2 + 4px;
+      margin-left: -4px;
+    }
+  }
 }
 </style>
