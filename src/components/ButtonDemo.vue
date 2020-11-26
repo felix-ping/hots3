@@ -3,9 +3,11 @@
   <h1>示例1</h1>
   <h1>示例1</h1>
   <div>
-    <Button>你好</Button>
     <Button @click="onClick" @focus="onClick"
             @mouseover="onClick">你好</Button>
+    <Button theme="link">link</Button>
+    <Button theme="text">text</Button>
+    <Button theme="button">button</Button>
   </div>
 </template>
 <script lang="ts">

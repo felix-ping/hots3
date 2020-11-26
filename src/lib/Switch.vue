@@ -1,5 +1,9 @@
 <template>
-  <button @click="toggleSwitch" :class="{checked:value}"><span></span></button>
+  <button
+      @click="toggleSwitch"
+      :class="{'hots-checked':value}"
+      class="hots-switch"
+  ><span></span></button>
 </template>
 
 <script>
@@ -15,11 +19,11 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 $h: 22px;
 $h2: $h - 4px;
 $padding: 2px;
-button {
+.hots-switch {
   height: $h;
   width: $h*2;
   border: none;
@@ -36,7 +40,7 @@ button {
     border-radius: $h2 / 2;
     transition: all 250ms;
   }
-  &.checked {
+  &.hots-checked {
     background-color: #1890ff;
     > span {
       left: calc(100% - #{$h2} - #{$padding});
@@ -51,7 +55,7 @@ button {
       width: $h2 + 4px;
     }
   }
-  &.checked:active {
+  &.hots-checked:active {
     > span {
       width: $h2 + 4px;
       margin-left: -4px;
