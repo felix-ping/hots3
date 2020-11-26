@@ -20,19 +20,20 @@ export default {
     },
     size: {
       type: String,
-      default: 'normal'
+      default: 'middle'
+    },
+    level:{
+      type:String,
+      default:'normal'
     }
   },
   setup(props) {
-    const {size, theme} = props
+    const {size, theme, level} = props
     const classes = computed(() => {
-      console.log({
-        [`hots-theme-${theme}`]: theme,
-        [`hots-size-${size}`]: size,
-      })
       return {
         [`hots-theme-${theme}`]: theme,
         [`hots-size-${size}`]: size,
+        [`hots-level-${level}`]:level
       }
     })
     return {classes};
@@ -44,6 +45,7 @@ $h: 32px;
 $border-color: #d9d9d9;
 $color: #333;
 $blue: #40a9ff;
+$red: red;
 $radius: 4px;
 .hots-button {
   box-sizing: border-box;
@@ -59,6 +61,7 @@ $radius: 4px;
   border: 1px solid $border-color;
   border-radius: $radius;
   box-shadow: 0 1px 0 fade-out(black, 0.95);
+  transition: background 250ms;
   & + & {
     margin-left: 8px;
   }
@@ -100,6 +103,53 @@ $radius: 4px;
     font-size: 12px;
     height: 20px;
     padding: 0 4px;
+  }
+  &.hots-theme-button {
+    &.hots-level-main {
+      background: $blue;
+      color: white;
+      border-color: $blue;
+      &:hover,
+      &:focus {
+        background: darken($blue, 10%);
+        border-color: darken($blue, 10%);
+      }
+    }
+    &.hots-level-danger {
+      background: $red;
+      border-color: $red;
+      color: white;
+      &:hover,
+      &:focus {
+        background: darken($red, 10%);
+        border-color: darken($red, 10%);
+      }
+    }
+  }
+  &.hots-theme-link {
+    &.hots-level-danger {
+      color: $red;
+      &:hover,
+      &:focus {
+        color: darken($red, 10%);
+      }
+    }
+  }
+  &.hots-theme-text {
+    &.hots-level-main {
+      color: $blue;
+      &:hover,
+      &:focus {
+        color: darken($blue, 10%);
+      }
+    }
+    &.hots-level-danger {
+      color: $red;
+      &:hover,
+      &:focus {
+        color: darken($red, 10%);
+      }
+    }
   }
 }
 </style>
