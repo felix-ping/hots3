@@ -1,5 +1,4 @@
 <template>
-  <div>
     <button class="hots-button"
       :class="classes"
       :disabled="disabled"
@@ -11,7 +10,6 @@
       </span>
       <slot/>
     </button>
-  </div>
 </template>
 
 <script lang="ts">

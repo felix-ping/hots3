@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f8c6278-6807-459e-8488-308c5608976e" name="Default Changelist" comment="loading">
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1jMAX9VjqVf6EebFBFVHiJounX4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="D:\software\webstorm\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\hots3\src" />
+      <recent name="D:\project\hots3\src\lib" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f8c6278-6807-459e-8488-308c5608976e" name="Default Changelist" comment="" />
+      <created>1603603627879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603603627879</updated>
+      <workItem from="1603603628676" duration="785000" />
+      <workItem from="1603604702448" duration="5828000" />
+      <workItem from="1604507160340" duration="31000" />
+      <workItem from="1604507268308" duration="20000" />
+      <workItem from="1604598274213" duration="1180000" />
+      <workItem from="1604612697230" duration="589000" />
+      <workItem from="1604667691497" duration="82000" />
+      <workItem from="1604680803840" duration="633000" />
+      <workItem from="1604723161204" duration="607000" />
+      <workItem from="1604753853599" duration="1193000" />
+      <workItem from="1604767375151" duration="591000" />
+      <workItem from="1604939851545" duration="592000" />
+      <workItem from="1605089413249" duration="576000" />
+      <workItem from="1605194724120" duration="11673000" />
+      <workItem from="1605276491126" duration="1189000" />
+      <workItem from="1605382417852" duration="559000" />
+      <workItem from="1605625675641" duration="2176000" />
+      <workItem from="1605887549259" duration="744000" />
+      <workItem from="1605891834759" duration="1300000" />
+      <workItem from="1605934632057" duration="12000" />
+      <workItem from="1606062524040" duration="18000" />
+      <workItem from="1606298092491" duration="610000" />
+      <workItem from="1606312948292" duration="16521000" />
+    </task>
+    <task id="LOCAL-00001" summary="封装TopNav组件，变动scss">
+      <created>1603607148767</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603607148767</updated>
+    </task>
+    <task id="LOCAL-00002" summary="实现TopNav组件的切换功能">
+      <created>1605198538070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605198538070</updated>
+    </task>
+    <task id="LOCAL-00003" summary="aside切换逻辑">
+      <created>1605259724060</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605259724060</updated>
+    </task>
+    <task id="LOCAL-00004" summary="官网架构完成">
+      <created>1605261640622</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605261640622</updated>
+    </task>
+    <task id="LOCAL-00005" summary="完成switch组件">
+      <created>1605264377964</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605264377964</updated>
+    </task>
+    <task id="LOCAL-00006" summary="switch组件样式优化">
+      <created>1605265246620</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605265246620</updated>
+    </task>
+    <task id="LOCAL-00007" summary="添加Button组件">
+      <created>1605628430232</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605628430232</updated>
+    </task>
+    <task id="LOCAL-00008" summary="添加Tabs,Tab组件">
+      <created>1605887703330</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605887703330</updated>
+    </task>
+    <task id="LOCAL-00009" summary="css 最小化影响">
+      <created>1606423765577</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606423765578</updated>
+    </task>
+    <task id="LOCAL-00010" summary="size">
+      <created>1606427459961</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1606427459961</updated>
+    </task>
+    <task id="LOCAL-00011" summary="level">
+      <created>1606429452098</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1606429452098</updated>
+    </task>
+    <task id="LOCAL-00012" summary="disabled">
+      <created>1606429780808</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606429780808</updated>
+    </task>
+    <task id="LOCAL-00013" summary="loading">
+      <created>1606431800397</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606431800397</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="封装TopNav组件，变动scss" />
+    <MESSAGE value="实现TopNav组件的切换功能" />
+    <MESSAGE value="aside切换逻辑" />
+    <MESSAGE value="官网架构完成" />
+    <MESSAGE value="完成switch组件" />
+    <MESSAGE value="switch组件样式优化" />
+    <MESSAGE value="添加Button组件" />
+    <MESSAGE value="添加Tabs,Tab组件" />
+    <MESSAGE value="css 最小化影响" />
+    <MESSAGE value="size" />
+    <MESSAGE value="level" />
+    <MESSAGE value="disabled" />
+    <MESSAGE value="loading" />
+    <option name="LAST_COMMIT_MESSAGE" value="loading" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="391" y="30" key="#TypeScript" timestamp="1603606723729">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="391" y="30" key="#TypeScript/0.0.1366.738@0.0.1366.738" timestamp="1603606723729" />
+    <state x="486" y="76" key="#Vue" timestamp="1606431398989">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="486" y="76" key="#Vue/0.0.1366.738@0.0.1366.738" timestamp="1606431398989" />
+    <state x="544" y="177" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1605892372271">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="544" y="177" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1366.738@0.0.1366.738" timestamp="1605892372271" />
+    <state x="315" y="26" key="SettingsEditor" timestamp="1605892602352">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="315" y="26" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1605892602352" />
+    <state x="0" y="0" width="596" height="738" key="find.popup" timestamp="1605198485887">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="0" y="0" width="596" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1605198485887" />
+  </component>
+</project>

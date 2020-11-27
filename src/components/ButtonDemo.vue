@@ -26,18 +26,20 @@
   </div>
   <h1>loading示例</h1>
   <Button loading>加载中</Button>
-	<Button @click="onClick">click</Button>
+	<Button @click="num+=1">{{num}}</Button>
+	<div @click="num+=1">{{num}}</div>
 </template>
 <script lang="ts">
 import Button from "../lib/Button.vue";
-
+import {ref} from 'vue'
 export default {
   components: {Button},
   setup() {
+  	const num = ref(0)
     const onClick = () => {
       console.log('hi')
     }
-    return {onClick}
+    return {onClick,num}
   }
 }
 
